@@ -1,0 +1,83 @@
+/* 头部样式开始 */
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 55px;
+
+}
+.header-left{
+    float: left; 
+    width: 179px;
+    height: 54px;
+    background-color: red;
+    color: #fff;
+}
+.header-right{
+    float: right;
+    width: 138px;
+    height: 54px;
+    border-left: 1px solid #dadada;
+    color: #333;
+}
+/* 头部样式结束 */
+/* 导航样式开始 */
+.nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    /* 背景图片不平铺，水平居中，垂直居上 */
+   /* background: url(../img/冰雪奇缘.jpg) no-repeat center top; */
+   background-color: #333;
+}
+/* 水平居中的容器 不设置高度 高度由内容展开 因为整个页面用了同一个class */
+.wrap{
+    width: 1180px;
+    margin: 0 auto;
+}
+.nav li{
+    float: left;
+    width: 84.28px;
+    height: 70px;
+}
+.nav a{
+    color: #fff;
+    font-size: 14px;
+}
+.nav span{
+    font-size: 12px;
+    margin-left: 8px;
+}
+.nav li:hover>a{
+    color: #000;
+}
+.active{
+    background-color:rgb(243, 173, 69);
+}
+/* 第一个框架的字的初始颜色 */
+.active>a{
+    color: #000;
+}
+.active span{
+    color: rgb(243, 173, 69);
+}
+/* 选中时为肤色边框 */
+.nav li:hover{
+    background-color:rgb(243, 173, 69);
+}
+/* 选中时竖线为肤色 */
+.nav li:hover span{
+    color: rgb(243, 173, 69);
+}
+/* 下拉列表 */
+.nav-list{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    height: 140px;
+    background-color: red;
+}
+/* 导航样式结束 */
